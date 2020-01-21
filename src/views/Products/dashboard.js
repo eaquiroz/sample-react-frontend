@@ -48,7 +48,7 @@ class Products extends Component {
 
         }, {
             dataField: 'longDescription',
-            text: 'Short Description',
+            text: 'Long Description',
             formatter: (cellContent, row) => {
                 return (
                     <div className='table-content'>
